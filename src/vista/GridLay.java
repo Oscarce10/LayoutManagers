@@ -9,9 +9,9 @@ public class GridLay extends JFrame implements ActionListener {
 	private JButton btn;
 	public GridLay() {
 		// TODO Auto-generated constructor stub
-		setLayout(new GridLayout(2,10)); //(Rows, Columns)
+		setLayout(new GridLayout(3,5)); //(Rows, Columns)
 		setSize(260, 300);
-		for (int i = 1; i <= 20; i++) {
+		for (int i = 1; i <= 15; /*Multiply rows times columns*/ i++) {
 			add(new JButton("Button "+i));
 		}
 		pack();
